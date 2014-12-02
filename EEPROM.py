@@ -50,7 +50,7 @@ def test1():
   print("Scanning...")
   scan=i2c.scan()
   if(scan==[]):
-    print("Uh oh, Houston, we have a problem... No I2C device on the bus..."
+    print("Uh oh, Houston, we have a problem... No I2C device on the bus...")
     return
   eep.selfTest()
   for i in range(0, 16):
